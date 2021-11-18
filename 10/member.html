@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>회원가입 폼 만들기</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        ul{
+            list-style-type: none;
+        }
+        h3{
+            margin: 20px 0 0 50px;
+        }
+        #mem_form{
+            width: 690px;
+            margin: 10px 0 0 50px;
+            font-family: "돋움";
+            font-size: 12px;
+            color: #444444;
+            padding-top: 5px;
+            padding-bottom: 15px;
+            border-top: solid 3px #78c6f3;
+           /* border-bottom: solid 1px #cccccc;*/
+        }
+        .line{
+            border-bottom: solid 1px gainsboro;
+        }
+        .cols li{
+            display: inline-block;
+            margin-top: 5px;
+            padding-bottom: 10px;
+            padding-top: 10px;
+        }
+        .cols li.col1{
+            width: 150px;
+            text-align: right;
+            font-weight: bold;
+
+        }
+        .cols li.col2{
+            width: 140px;
+        }
+        .cols li.col4 input.hp{
+            width: 35px;
+        }
+        .cols li.col2 input{
+            width: 130px;
+        }
+        #intro{
+            vertical-align: top;
+        }
+        .cols li.col4 input.sm_box{
+            width: 25px;
+        }
+        .cols li.col3{
+            width: 250px;
+        }
+        .cols li.col3 span{
+            border: solid 1px rgb(67, 109, 185);
+            padding: 3px 5px 3px 5px;
+            border-radius: 5px;
+            background-color: rgb(67, 109, 185);
+            color: white;
+
+        }
+        .cols li.col4{
+            width: 155px;
+        }
+        b{
+            color: red;
+        }
+        .cols li.last{
+            margin-left: 140px;
+        }
+    </style>
+</head>
+<body>
+    <h3><img src="img/dot.png"> 회원가입정보</h3>
+    <form action="#">
+        <ul id="mem_form">
+            <li class="line">
+                <ul class="cols">
+                    <li class="col1"><b>*</b> 아이디&nbsp;  </li>
+                    <li class="col2"><input type="text"></li>
+                    <li class="col3"><span>중복확인</span> 영문, 숫자 조합으로 4~12자 이내</li>
+                </ul>
+            </li>
+            <li class="line">
+                <ul class="cols">
+                    <li class="col1"><b>*</b> 비밀번호&nbsp;  </li>
+                    <li class="col2"><input type="password"></li>
+                    <li class="col3">영문, 숫자 조합으로 4~12자 이내</li>
+                </ul>
+            </li>
+            <li class="line">
+                <ul class="cols">
+                    <li class="col1"><b>*</b> 비밀번호 확인&nbsp; </li>
+                    <li class="col2"><input type="password"></li>
+                </ul>
+            </li>
+            <li class="line">
+                <ul class="cols">
+                    <li class="col1"><b>*</b> 이름&nbsp;  </li>
+                    <li class="col2"><input type="text"></li>
+                </ul>
+            </li>
+            <li class="line">
+                <ul class="cols">
+                    <li class="col1"><b>*</b> 생년월일&nbsp;  </li>
+                    <li class="col4"><input class="hp" type="text">년&nbsp; <input class="sm_box" type="text">월&nbsp;<input class="sm_box" type="text">일&nbsp;  </li>
+                    <li class="col3"><input type="radio" name="cal" checked> 음력 &nbsp;
+                        <input type="radio" name="cal">양력 </li>
+                </ul>
+            </li>
+            <li class="line">
+                <ul class="cols">
+                    <li class="col1"><b>*</b> 이메일&nbsp;  </li>
+                    <li class="col2"><input type="text"></li>
+                </ul>
+            </li>
+            <li class="line">
+                <ul class="cols">
+                    <li class="col1"><b>*</b> 휴대전화&nbsp;  </li>
+                    <li class="col4">
+                        <input class="hp" type="text"> - <input class="hp" type="text"> - <input class="hp" type="text">
+                    </li>
+                </ul>
+            </li>
+            <li class="line">
+                <ul class="cols">
+                    <li class="col1">직업&nbsp;  </li>
+                    <li class="col2">
+                        <select>
+                            <option>직업선택</option>
+                            <option>학생</option>
+                            <option>직장인</option>
+                            <option>회사원</option>
+                        </select>
+                </ul>
+            </li>
+            <li class="line">
+                <ul class="cols">
+                    <li class="col1">영어수강목적&nbsp; </li>
+                    <li class="col5">
+                        <input type="checkbox" name="english1"> 시험대비
+                        <input type="checkbox" name="english2"> 업무상
+                        <input type="checkbox" name="english3"> 취미
+                        <input type="checkbox" name="english3"> 기타
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <ul class="cols">
+                    <li class="col1"></li>  
+                        <li class="last"><input type="reset" value="ㅇ가입취소">&nbsp;
+                        <input type="submit" value="ㅇ가입완료"></li>
+                </ul>
+            </li>
+        </ul>
+    </form> 
+</body>
+</html>
