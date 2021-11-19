@@ -11,15 +11,24 @@
         color : #0000ff;
     }
     #date{
-        width: 200px;
-        height: 90px;
+        display: inline-block;
+    }
+    #date .git{
+        width: 140px;
+        height: 45px;
         border: solid 2px #888888;
         border-radius: 10px;
-        margin-bottom: 2px;
+        margin-bottom: 10px;
+    }
+    #date .site{
+        width: 160px;
+        height: 130px;
+        border: solid 2px #888888;
+        border-radius: 10px;
     }
     table {
         border: solid 1px gray;
-        width: 850px;
+        width: 870px;
     }
 </style>
 </head>
@@ -27,13 +36,24 @@
     <img src="minians.jpg" style="float: left; width:140px; height: 140px;"><br>
     <h1>HTML,CSS 공부일지</h1><br><br>
     <div id="date">
-	<b>&nbsp;&nbsp;임애선(Aesun Lim)</b>
-    <ol >
-    <li> <a href = "https://github.com/word611" > github 주소</a></li></ol>
+    <ol class="git" >
+        <b>임애선(Aesun Lim)</b>
+        <li> <a href = "https://github.com/word611" > github 주소</a></li></ol>
+    </div> 
+    <div id="date">
+        <ol class="site">
+            <b>조사한 사이트</b>
+        <li> <a href = "https://kr.ncsoft.com/kr/index.do" > NCSOFT, </a><br>
+            <a href = "https://www.line.games/" > LINE GAMES, </a><br>
+            <a href = "https://www.kakaobank.com/" > KAKAO BANK, </a><br>
+            <a href = "https://www.the-cup.co.kr/" > THE CUP, </a><br>
+            <a href = "https://www.caffemuseo.co.kr/?nomobile=no" > Caffe MUSEO 쇼핑몰 </a>
+        
+        </li></ol>
     </div>
     <table>
         <tr>
-            <td style="width: 155px; border-right: solid 1px #888888;">2021-11-11 수업내용</td>
+            <td style="width: 100px; border-right: solid 1px #888888;">2021-11-11 </td>
             <td><ol>
             <li> <a href = "http://word611.dothome.co.kr/01/attribute.htm" > h1 ~ h6 태그 사용 </a> 
             <li> <a href = "http://word611.dothome.co.kr/01/ul_li.htm" > 순서없는 목록, </a>
@@ -45,7 +65,7 @@
     </table>
     <table>
         <tr>
-            <td style="width: 155px; border-right: solid 1px #888888;">2021-11-12 수업내용</td>
+            <td style="width: 100px; border-right: solid 1px #888888;">2021-11-12 </td>
             <td><ol>
                 <li><a href = "http://word611.dothome.co.kr/03/image_attribute.html" > 이미지 태그의 속성, </a>
                 <a href = "http://word611.dothome.co.kr/03/video.html" > 비디오 태그, </a>
@@ -63,7 +83,7 @@
     </table>
     <table>
         <tr>
-            <td style="width: 155px; border-right: solid 1px #888888;">2021-11-15 수업내용</td>
+            <td style="width: 100px; border-right: solid 1px #888888;">2021-11-15 </td>
             <td><ol>
              <li>
              <a href = "http://word611.dothome.co.kr/05/01_css_syntax.html" > css 문법,</a>
@@ -84,7 +104,7 @@
     </table>
     <table>
         <tr>
-            <td style="width: 155px; border-right: solid 1px #888888;">2021-11-16 수업내용</td>
+            <td style="width: 100px; border-right: solid 1px #888888;">2021-11-16 </td>
             <td><ol>
             <li>
             <a href = "http://word611.dothome.co.kr/07/background_color.html" > 배경 색상,</a>
@@ -107,7 +127,7 @@
     </table>
     <table>
         <tr>
-            <td style="width: 155px; border-right: solid 1px #888888;">2021-11-17 수업내용</td>
+            <td style="width: 100px; border-right: solid 1px #888888;">2021-11-17 </td>
             <td>
                 <ol>
                     <li>
@@ -124,7 +144,7 @@
     </table>
     <table>
         <tr>
-            <td style="width: 155px; border-right: solid 1px #888888;">2021-11-18 수업내용</td>
+            <td style="width: 100px; border-right: solid 1px #888888;">2021-11-18 </td>
             <td>
             <ol>
                 <li>
@@ -138,6 +158,25 @@
             </td>
         </tr>
     </table>
+    <table>
+    <tr>
+        <td style="width: 100px; border-right: solid 1px #888888;">2021-11-19 </td>
+        <td>
+        <ol>
+            <li>
+                <a href = "http://word611.dothome.co.kr/10/09_position2.html" > 포지션 relative,</a>
+                <a href = "http://word611.dothome.co.kr/10/10_position3.html" > 포지션 absolute,</a>
+                <a href = "http://word611.dothome.co.kr/10/11_position4.html" > 부모 박스에서 적용,</a></li>
+            <li><a href = "http://word611.dothome.co.kr/11/01_html5_layout.html" > HTML layout,</a>
+                <a href = "http://word611.dothome.co.kr/11/02_fixed_2col.html" > 고정형 2단 레이아웃,</a>
+                <a href = "http://word611.dothome.co.kr/11/03_fixed_3col.html" > 고정형 3단 레이아웃,</a>
+                <a href = "http://word611.dothome.co.kr/11/04_part_fixed_2col.html" > 부분 고정형 레이아웃,</a>
+                <a href = "http://word611.dothome.co.kr/11/05_flexible_2col.html" > 유동형 레이아웃</a>
+            </li>
+        </ol>
+        </td>
+    </tr>
+    </table>
     <p><h3>연습문제 모음</h3></p>
     <a href = "http://word611.dothome.co.kr/04/view_info.html" > 연습문제1(식물원),</a>
      <a href = "http://word611.dothome.co.kr/04/english_class.html" > 연습문제2(영어회화),</a>
@@ -147,7 +186,8 @@
      <a href = "http://word611.dothome.co.kr/08/visit.html" > 봄빛 수목원,</a>
      <a href = "http://word611.dothome.co.kr/09/complete.html" > 무료 호스팅,</a>
      <a href = "http://word611.dothome.co.kr/10/member.html" > 회원가입 폼,</a>
-     <a href = "http://word611.dothome.co.kr/10/schedule.html" > 시간표</a>
+     <a href = "http://word611.dothome.co.kr/10/schedule.html" > 시간표,</a>
+     <a href = "http://word611.dothome.co.kr/11/final.html" > 루바트 홈페이지,</a>
 
 
 </body>
