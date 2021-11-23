@@ -18,7 +18,7 @@ section#cat1 #cat_title {
 }
 section#cat1 li {
     color:#666666;
-    padding:7px 0 7px 30px;
+    padding:6px 0 6px 30px;
     border-bottom:solid 1px #cccccc;
 }
 section#cat2 {
@@ -79,6 +79,7 @@ section#special_banner div {
     height:129px;
     margin-top:1px;
 }
+
 /* 스페셜 숍  우측의 배너 3개 */
 section#special_banner #banner1 {
     background-image:url("../img/landscape.gif");
@@ -98,6 +99,7 @@ section#special_banner ul {
 section#special_banner li {
     display:inline;
 }
+
 /* 신규 상품 */
 section#new {
     height:650px;

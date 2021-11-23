@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>계산기</title>
+    <style>
+        body{
+            background-color: black;
+        }
+        #calc ul{
+            list-style-type: none;
+        }
+        #calc .f_line li, .s_line li, .t_line li{
+            background-color: silver;
+            float: left;
+            margin: 5px;
+            font-size: 30px;
+            border-radius: 30px;
+            color: black;
+            width: 60px;
+            height: 60px;
+            text-align: center;
+        }
+        .clear{
+            clear: both;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="calc">
+        <div class="f_line">
+            <ul>
+                <li>AC</li>
+                <li>+/-</li>
+                <li>%</li>
+                <li><span>/</span></li>
+            </ul>
+        </div>
+    <div class="clear"></div>
+        <div class="s_line">
+            <ul>
+                <li>7</li>
+                <li>8</li>
+                <li>9</li>
+                <li><span>X</span></li>
+            </ul>
+        </div>
+    <div class="clear"></div>
+        <div class="s_line">
+            <ul>
+                <li>4</li>
+                <li>5</li>
+                <li>6</li>
+                <li><span>-</span></li>
+            </ul>
+        </div>
+    <div class="clear"></div>
+    <div class="s_line">
+    <ul>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li><span>+</span></li>
+    </ul>
+    </div>
+    <div class="clear"></div>
+        <div class="t_line">
+            <ul>
+                <li>0</li>
+                <li>.</li>
+                <li><span>=</span></li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

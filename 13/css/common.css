@@ -18,6 +18,7 @@ a:link, a:visited, a:hover, a:active {
 .clear {
     clear:both;
 }
+
 /* ---------- 헤더 ------------- */
 header {
     height:128px;
@@ -32,6 +33,7 @@ header #logo {
     margin:30px 0 0 0;
 /* border:solid 1px #000000; */
 }
+
 /* 검색 */
 header #search {
     float:left;
@@ -60,6 +62,7 @@ header #search #search_button {
     float:left;
     margin:3px 0 0 3px;
 }
+
 /* 상단 메뉴 */
 header #top_menu {
     float:right;	
@@ -98,6 +101,7 @@ header #top_menu li {
     display:inline;
     margin-left:10px;
 }
+
 /* 메인 메뉴 */
 header #main_menu {
     height:38px;
@@ -128,6 +132,7 @@ header #main_menu a:hover {
 header #main_menu a:active {
     color:#ffffff;
 }
+
 /* ------------- 푸터 ----------------- */
 footer {
     height:200px;

@@ -1,0 +1,19 @@
+body{
+    background: black;
+    color: seashell;
+}
+.skills .logo img{
+    width: 90px;
+    height: 100px;
+}
+.skills ul{
+    list-style: none;
+    float: left;
+}
+.skills li{
+    display: inline-block;
+}
+.skills{
+    width: 500px;
+    height: 320px;
+}
