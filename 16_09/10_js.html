@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>전역변수와 지역변수</title>
+</head>
+<body>
+    <script>
+        function getGrade(){    //지역 변수
+             kor=95;            //함수 내부에서 변수 선언시 var키를 사용하지 않으면 전역 변수로 바뀜
+        }
+        var kor=100;            //전역 변수
+        getGrade();             //함수 호출
+        document.write("국어 점수 : "+kor+"<br>");
+    </script>
+    
+</body>
+</html>
